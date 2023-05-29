@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Proxied-By: Service Gateway
+Content-Security-Policy: frame-ancestors *.newrelic.com
+Cache-Control: max-age=0, private, must-revalidate
+Content-Length: 493
+Content-Type: application/json
+Date: Sat, 11 Dec 2021 10:51:09 GMT
+Etag: "1755d960ff69ab9f7d61528fc3566e2a"
+Server: nginx
+Status: 200 OK
+X-Rack-Cache: miss
+X-Request-Id: 77e3c604acff8233e87a29a92de29149
+X-Runtime: 0.092435
+X-Ua-Compatible: IE=Edge,chrome=1
+
+{"applications":[],"links":{"application.servers":"/v2/servers?ids={server_ids}","application.server":"/v2/servers/{server_id}","application.application_hosts":"/v2/application/{application_id}/hosts?ids={host_ids}","application.application_host":"/v2/application/{application_id}/hosts/{host_id}","application.application_instances":"/v2/application/{application_id}/instances?ids={instance_ids}","application.application_instance":"/v2/application/{application_id}/instances/{instance_id}"}}
